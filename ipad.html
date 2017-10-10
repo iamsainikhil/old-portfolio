@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en" id="top">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
@@ -91,6 +92,7 @@
             }
 
         }
+
     </style>
 </head>
 
@@ -583,20 +585,18 @@
                         <input class="input" type="email" name="email" placeholder="Enter email address" required>
                         <p class="help-text">I'll never share your email with others.</p>
                         <span id="email-invalid" style="visibility:hidden">
-        Must be a valid email address</span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="small-6 medium-6 large-6 columns">
-                        <label for="middle-label" class="text-right middle wow fadeInDown" data-wow-duration="2s">Message&#42;</label>
-                    </div>
-                    <div class="small-6 medium-6 large-6 columns">
-                        <textarea class="input" id="middle-label" name="message" cols="50" rows="2" placeholder="Type message" required></textarea>
-                        <p class="help-text">&#42; indicates required fields</p>
-                        <button class="button button-contact animated wow fadeInDown" id="button-contact"><i class="fa fa-paper-plane" aria-hidden="true" data-wow-duration="2s"></i>&nbsp;Send</button>
-                    </div>
-                </div>
-            </form>
+                      <div class="row">
+                        <div class="small-6 medium-6 large-6 columns">
+                          <label for="middle-label" class="text-right middle wow fadeIn">Message&#42;</label>
+                        </div>
+                      <div class="small-6 medium-6 large-6 columns">
+                          <textarea class="input" id="middle-label" name="message" cols="50" rows="2" placeholder="Type message"  required></textarea>
+                          <p class="help-text">&#42; indicates required fields</p>
+                          <button class="button button-contact animated wow fadeInDown" id="button-contact"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send</button>
+                      </div>
+                      </div>
+                </form>
+
 
             <!-- Customise the Thankyou Message People See when they submit the form: -->
             <div style="display:none;" id="thankyou_message">
@@ -607,131 +607,189 @@
         </div>
     </section>
 
-    ></a>
-    </span>&#8212;&nbsp;Plugin to fix elements on the page on scroll&nbsp;by&nbsp;<span class="author author-scroll">bigspotteddog</span></p>
-    <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/codrops/HoverEffectIdeas" target="_blank"><button class="button button-hover">Hover Effect Ideas</button></a></span>&#8212;&nbsp;Some inspiration and modern ideas for subtle hover effects.&nbsp;by&nbsp;<span class="author author-hover">Codrops</span></p>
-    <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/dwyl/html-form-send-email-via-google-script-without-server" target="_blank"><button class="button button-html">HTML Form Email without Server</button></a></span>&#8212;&nbsp;an HTML form to send Email without a Backend Server (using a Google Script)&nbsp;by&nbsp;<span class="author author-html">dwyl</span></p>
-
-
-
-    <button class="close-button" data-close aria-label="Close modal" type="button">
-    <span aria-hidden="true">&times;</span>
-  </button>
-    </div>
-    <div class="credits wow fadeInUp" data-wow-duration="2s"><a data-open="credits-modal"><button class="button-credits">CREDITS</button></a></div>
-    </div>
-    </div>
-
-    <div class="row expanded">
-        <div class="small-4 medium-4 large-4 columns wow fadeInDown" data-wow-duration="2s">
-            <!-- <a class="github-button" href="https://github.com/iamsainikhil" aria-label="Follow @iamsainikhil on GitHub">Follow @iamsainikhil</a> -->
-            <div class="large reveal lead" id="disclaimer-modal" data-reveal>
-                <h1>WEBSITE DISCLAIMER</h1>
-                <p>Logos used in this website are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by us.</p>
-                <p>Icons used in this website are downloaded from- Freepik.com</p>
-                <h1>This website is licensed under the MIT License</h1>
-                <p>MIT License</p>
-                <p>Copyright (c) 2017 Sai Nikhil Bheemanathini</p>
-                <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-                <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-                <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
-                <button class="close-button" data-close aria-label="Close modal" type="button">
-    <span aria-hidden="true">&times;</span>
-  </button>
+    <footer id="footer" style="width:100%;overflow-x:hidden;">
+        <div class="row expanded">
+            <div class="small-12 medium-6 large-6 columns">
+                <div class="small-6 medium-4 large-4 columns">
+                    <img class="profile-pic wow fadeInUp" src="images/Profile-Picture.jpg" alt="my-profile-pic" data-wow-duration="2s" />
+                </div>
+                <div class="small-6 medium-2 large-2 columns">
+                    <div class="note wow fadeInRUp" data-wow-duration="2s">
+                        <p>Thank you for visit!</p>
+                        <p class="note2">I will be glad, if you visit my other profiles &nbsp;<i class="fa fa-hand-o-right fa-2x"></i></p>
+                    </div>
+                </div>
             </div>
-            <div class="disclaimer wow fadeInUp"><a data-open="disclaimer-modal"><button class="button-credits">DISCLAIMER</button></a></div>
+            <div class="small-12 medium-6 large-6 columns">
+                <div class="social wow fadeInUp" data-wow-duration="2s">
+                    <span class="line"></span>
+                        <ul>
+                            <li class="behance">
+                                <a href="https://www.behance.net/techgeek124a93" target="_blank" class="b">
+				<i class="fa fa-behance fa-2x"></i>
+			</a>
+                            </li>
+                            <li class="codepen">
+                                <a href="https://codepen.io/iamsainikhil" target="_blank" class="c">
+				<i class="fa fa-codepen fa-2x"></i>
+			</a>
+                            </li>
+                            <li class="github">
+                                <a href="https://github.com/iamsainikhil" target="_blank" class="g">
+				<i class="fa fa-github fa-2x"></i>
+			</a>
+                            </li>
+                            <li class="linkedin">
+                                <a href="https://www.linkedin.com/in/iamsainikhil" target="_blank" class="l">
+				<i class="fa fa-linkedin fa-2x"></i>
+			</a>
+                            </li>
+                            <li class="stack-overflow">
+                                <a href="https://stackoverflow.com/users/7508562/sai-nikhil" target="_blank" class="s">
+				<i class="fa fa-stack-overflow fa-2x"></i>
+			</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="large reveal" id="credits-modal" data-reveal>
+                        <h1>Credits to various authors for their wonderful plugins!</h1>
+                        <p class="lead">My website got a beautiful look and excellent features with the help of the plugins below:</p>
+                        <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/matthieua/WOW" target="_blank"><button class="button button-wow">WOW</button></a></span>&#8212;&nbsp;Plugin to reveal elements on scroll with beautiful animations&nbsp;by&nbsp;<span class="author author-wow">mattaussaguel</span></p>
+                        <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/mattboldt/typed.js" target="_blank"><button class="button button-typed">Typed</button></a></span>&#8212;&nbsp;A jQuery typing animation script.&nbsp;by&nbsp;<span class="author author-typed">Mattboldt</span></p>
+                        <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/davatron5000/FitText.js" target="_blank"><button class="button button-fit">fittext</button></a></span>&#8212;&nbsp;A jQuery plugin for inflating web type&nbsp;by&nbsp;<span class="author author-fit">davatron5000</span></p>
+                        <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/daneden/animate.css" target="_blank"><button class="button button-animate">ANIMATE</button></a></span>&#8212;&nbsp;animate.css is a bunch of cool, fun, and cross-browser animations&nbsp;by&nbsp;<span class="author author-animate">daneden</span></p>
+                        <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/Gix075/jqueryIntroLoader" target="_blank"><button class="button button-loader">Intro Loader</button></a></span>&#8212;&nbsp;Plugin to generate animated Intro loading pages&nbsp;by&nbsp;<span class="author author-loader">Gix075</span></p>
+                        <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/bigspotteddog/ScrollToFixed" target="_blank"><button class="button button-scroll">Scroll To Fixed</button></a></span>&#8212;&nbsp;Plugin to fix elements on the page on scroll&nbsp;by&nbsp;<span class="author author-scroll">bigspotteddog</span></p>
+                        <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/codrops/HoverEffectIdeas" target="_blank"><button class="button button-hover">Hover Effect Ideas</button></a></span>&#8212;&nbsp;Some inspiration and modern ideas for subtle hover effects.&nbsp;by&nbsp;<span class="author author-hover">Codrops</span></p>
+                        <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/dwyl/html-form-send-email-via-google-script-without-server" target="_blank"><button class="button button-html">HTML Form Email without Server</button></a></span>&#8212;&nbsp;an HTML form to send Email without a Backend Server (using a Google Script)&nbsp;by&nbsp;<span class="author author-html">dwyl</span></p>
+
+
+
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+                    </div>
+                    <div class="credits wow fadeInUp" data-wow-duration="2s"><a data-open="credits-modal"><button class="button-credits">CREDITS</button></a></div>
+                </div>
         </div>
-        <div class="small-4 medium-4 large-4 columns copyright wow fadeInUp" data-wow-duration="2s">
-            <p>&copy; Sai Nikhil 2017</p>
+
+        <div class="row expanded">
+            <div class="small-4 medium-4 large-4 columns wow fadeInDown" data-wow-duration="2s">
+                <!-- <a class="github-button" href="https://github.com/iamsainikhil" aria-label="Follow @iamsainikhil on GitHub">Follow @iamsainikhil</a> -->
+                <div class="large reveal lead" id="disclaimer-modal" data-reveal>
+                    <h1>WEBSITE DISCLAIMER</h1>
+                    <p>Logos used in this website are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by us.</p>
+                    <p>Icons used in this website are downloaded from- Freepik.com</p>
+                    <h1>This website is licensed under the MIT License</h1>
+                    <p>MIT License</p>
+                    <p>Copyright (c) 2017 Sai Nikhil Bheemanathini</p>
+                    <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+                    <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+                    <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
+                    <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+                </div>
+                <div class="disclaimer wow fadeInUp"><a data-open="disclaimer-modal"><button class="button-credits">DISCLAIMER</button></a></div>
+            </div>
+            <div class="small-4 medium-4 large-4 columns copyright wow fadeInUp" data-wow-duration="2s">
+                <p>&copy; Sai Nikhil 2017</p>
+            </div>
+            <div class="small-4 medium-4 large-4 columns resume wow fadeInUp" data-wow-duration="2s">
+                <a href="http://vizualize.me/iamsainikhil?r=iamsainikhil" target="_blank"><img src="http://vizualize.me/media/img/socialicons/viewmyviz.png"/></a>
+            </div>
         </div>
-        <div class="small-4 medium-4 large-4 columns resume wow fadeInUp" data-wow-duration="2s">
-            <a href="http://vizualize.me/iamsainikhil?r=iamsainikhil" target="_blank"><img src="http://vizualize.me/media/img/socialicons/viewmyviz.png"/></a>
-        </div>
-    </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up fa-2x"></i></button>
-    </footer>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up fa-2x"></i></button>
+        </footer>
 
 
-    <script src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/typed.js"></script>
-    <script>
-        //typed.js
-        $(function() {
-            $(".write").typed({
-                strings: ["Hello,", "नमस्ते,"],
-                typeSpeed: 100,
-                loop: true,
-                backSpeed: 75,
-                backDelay: 2000,
-                showCursor: true,
-                cursorChar: "|",
-            });
-        });
-    </script>
-    <script type="text/javascript" src="js/scrolltofixed.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.header').scrollToFixed();
-            $('.header').trigger('resize');
-            $(window).scroll();
-            $(window).resize();
-        });
-    </script>
-    <script src="js/what-input.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fittext.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/scrolltofixed.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
-    <script type="text/javascript" src="js/snap.svg-min.js"></script>
-    <script>
-        //animation hover effects
-        (function() {
-
-            function init() {
-                var speed = 300,
-                    easing = mina.easeinout;
-
-                [].slice.call(document.querySelectorAll('#grid > div')).forEach(function(el) {
-                    var s = Snap(el.querySelector('svg')),
-                        path = s.select('path'),
-                        pathConfig = {
-                            from: path.attr('d'),
-                            to: el.getAttribute('data-path-hover')
-                        };
-
-                    el.addEventListener('mouseenter', function() {
-                        path.animate({
-                            'path': pathConfig.to
-                        }, speed, easing);
-                    });
-
-                    el.addEventListener('mouseleave', function() {
-                        path.animate({
-                            'path': pathConfig.from
-                        }, speed, easing);
-                    });
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/typed.js"></script>
+        <script>
+            //typed.js
+            $(function() {
+                $(".write").typed({
+                    strings: ["Hello,", "नमस्ते,"],
+                    typeSpeed: 100,
+                    loop: true,
+                    backSpeed: 75,
+                    backDelay: 2000,
+                    showCursor: true,
+                    cursorChar: "|",
                 });
-            }
+            });
 
-            init();
+        </script>
+        <script type="text/javascript" src="js/scrolltofixed.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.header').scrollToFixed();
+                $('.header').trigger('resize');
+                $(window).scroll();
+                $(window).resize();
+            });
 
-        })();
-    </script>
+        </script>
+        <script src="js/what-input.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fittext.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/scrolltofixed.js"></script>
+        <script>
+            $(document).foundation();
 
-    <!-- Submit the Form to Google Using "AJAX" -->
-    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script type="text/javascript" src="js/wow.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-    <script type="text/javascript" src="js/paroller.js"></script>
-    <script>
-        $(window).paroller();
-    </script>
+        </script>
+        <script type="text/javascript" src="js/snap.svg-min.js"></script>
+        <script>
+            //animation hover effects
+            (function() {
+
+                function init() {
+                    var speed = 300,
+                        easing = mina.easeinout;
+
+                    [].slice.call(document.querySelectorAll('#grid > div')).forEach(function(el) {
+                        var s = Snap(el.querySelector('svg')),
+                            path = s.select('path'),
+                            pathConfig = {
+                                from: path.attr('d'),
+                                to: el.getAttribute('data-path-hover')
+                            };
+
+                        el.addEventListener('mouseenter', function() {
+                            path.animate({
+                                'path': pathConfig.to
+                            }, speed, easing);
+                        });
+
+                        el.addEventListener('mouseleave', function() {
+                            path.animate({
+                                'path': pathConfig.from
+                            }, speed, easing);
+                        });
+                    });
+                }
+
+                init();
+
+            })();
+
+        </script>
+
+        <!-- Submit the Form to Google Using "AJAX" -->
+        <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <script type="text/javascript" src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+
+        </script>
+        <script type="text/javascript" src="js/paroller.js"></script>
+        <script>
+            $(window).paroller();
+
+        </script>
 </body>
+
 </html>
