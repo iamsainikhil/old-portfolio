@@ -1,0 +1,737 @@
+<!doctype html>
+<html class="no-js" lang="en" id="top">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="keywords" content="html layouts, html5 graphics, css buttons, css3 animations, foundation6, javascript, jquery, portfolio, github pages, personal">
+    <meta name="description" content="This is a personal website to show my skills, projects, and achievements built on GitHub pages.">
+    <meta name="author" content="Sai Nikhil Bheemanathini">
+    <meta name="copyright" content="Sai Nikhil 2017">
+    <meta name="robots" content="index,follow">
+    <meta name="google" content="translate" />
+    <title>Sai Nikhil | Portfolio</title>
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#525252">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#525252">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#525252">
+    <link rel="icon" sizes="192x192" href="images/Profile-Picture.jpg">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Open+Sans|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link type="text/css" href="css/custom.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/media-queries-ios.css" rel="stylesheet">
+    <link type="text/css" href="css/animate.css" rel="stylesheet">
+    <link type="text/css" href="css/bttn.css" rel="stylesheet">
+    <link type="text/css" href="css/projects-hover-effects.css" rel="stylesheet">
+    <link type="text/css" href="css/awards-hover-effects.css" rel="stylesheet">
+    <link type="text/css" href="css/introloader.css" rel="stylesheet">
+
+    <style>
+        body,
+        html {
+            overflow-x: hidden;
+            overflow: hidden;
+            overflow-y: auto;
+        }
+
+        .element1 {
+            display: block !important;
+        }
+
+        @media only screen and (max-width:300px) {
+            .hero-section {
+                height: 550px;
+
+            }
+
+        }
+
+        @media only screen and (width:301px) and (max-width:575px) {
+            .hero-section {
+                height: 550px;
+
+            }
+
+        }
+
+        @media only screen and (width:576px)and (max-width:767px) {
+            .hero-section {
+                height: 650px;
+
+            }
+
+        }
+
+        @media only screen and (width:768px)and (max-width:991px) {
+            .hero-section {
+                height: 900px;
+
+            }
+
+        }
+
+        @media only screen and (width:992px)and (max-width:1199px) {
+            .hero-section {
+                height: 900px;
+
+            }
+
+        }
+
+        @media only screen and (width:1200px) {
+            .hero-section {
+                height: 950px;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="header">
+        <div class="title-bar" data-responsive-toggle="mobile-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle id="toggleButton"></button>
+            <div class="title-bar-title" id="logo-title"><img src="images/logos/sainikhil-logo.png" /></div>
+        </div>
+
+        <div class="top-bar nav-color" id="mobile-menu">
+            <div class="top-bar-left">
+                <ul class="menu text-hide" id="color">
+                    <li class="menu-text" id="logo"><img src="images/logos/sainikhil-logo.png" /></li>
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class=" medium-horizontal vertical dropdown menu sticky-menu" id="color-toggle" data-magellan data-responsive-menu="accordion medium-dropdown">
+                    <li><a href="#about" onclick="document.getElementById('toggleButton').click();">About</a></li>
+                    <li><a href="#skills" onclick="document.getElementById('toggleButton').click();">Skills</a></li>
+                    <li><a href="#projects" onclick="document.getElementById('toggleButton').click();">Projects</a></li>
+                    <li><a href="#achievements" onclick="document.getElementById('toggleButton').click();">Achievements</a></li>
+                    <li><a href="#contact" onclick="document.getElementById('toggleButton').click();">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="hero-section-text">
+            <h2><span class="write"></span>&nbsp;my name is</h2>
+            <h1 id="responsive_headline" class="wow fadeInLeft">Sai Nikhil</h1>
+            <h2 class="wow fadeInRight">Web&nbsp;Designer | UI/UX&nbsp;Designer | Full&nbsp;Stack&nbsp;Web&nbsp;Developer</h2>
+            <div class="hero-button wow bounceInUp"><a href="#about"><button class="button-hero button1-hero" data-magellan><i class="fa fa-angle-double-down animated fadeInDown" aria-hidden="true" id="hero-image-button"></i></button></a></div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <section id="about" class="section-1" data-magellan-target="about" data-animation-easing="linear" data-animation-duration="1000" data-active-class="active" data-bar-offset="10">
+        <div class="about-section-image" data-paroller-factor="0.1" data-paroller-type="background" data-paroller-direction="vertical">
+            <div class="row expanded element" style="width:100%;overflow-x:hidden;">
+                <svg width="0" height="0">
+  <defs>
+	<clippath id="clip-shape" clippathunits="objectBoundingBox">
+	  <polygon points="0 0, 1 0, 1 1, 0 0.88" />
+	</clippath>
+  </defs>
+</svg>
+                <div class="row expanded mask">
+                    <div class="row expanded">
+                        <div class="columns">
+                            <h1 class="about-title wow fadeInDown" data-wow-duration="2s">About</h1>
+                        </div>
+                    </div>
+                    <div class="row expanded">
+                        <div class="columns">
+                            <h1 class="about-content wow fadeInDown" data-wow-duration="2s">I craft beautiful, intuitive and functional design in Web Development</h1>
+                        </div>
+                    </div><br/>
+                    <div class="row expanded about-section about-section-scroll">
+                        <div class="small-12 medium-12 large-6 columns wow fadeInDown" data-wow-duration="2s">
+                            <p class="about-section-content">I am pursuing Master&#39;s degree in Information Technology at the University of Cincinnati.</p><br/>
+                        </div>
+                        <div class="small-12 medium-12 large-6 columns wow fadeInDown" data-wow-duration="2s">
+                            <p class="about-section-content">I have a passion for Web Development, Big Data, Data Analytics, Internet of Things(IoT), and Network Security. In free time, I love blogging and playing outdoor games like cricket, volleyball, badminton, etc.</p>
+
+                        </div>
+                        <div class="small-12 medium-12 large-6 columns wow fadeInDown" data-wow-duration="2s">
+                            <p class="about-section-content"> I've been designing and developing for the web and related platforms for the past eight months.</p><br/>
+                        </div>
+                        <div class="small-12 medium-12 large-6 columns wow fadeInDown" data-wow-duration="2s">
+                            <p class="about-section-content about-section-content-mobile">I always believe in few quotes which give inspiration to Web Developers. I show you the three best quotes which motivate me at hard times.</p>
+                        </div>
+
+                        <div class="small-12 medium-6 large-6 columns">
+                            <p class="about-button wow fadeInDown" id="story-mobile"><button type="button" class="button-about button-about-text" data-toggle="story" id="story-button" data-wow-duration="2s">Read the story behind this website</button></p>
+                        </div>
+                        <div class="small-12 medium-6 large-6 columns">
+                            <p class="about-button wow fadeInDown" id="quotes-mobile"><button type="button" class="button-about button-about-text" data-toggle="quotes" id="quotes-button" data-wow-duration="2s">View my favorite Quotes</button></p>
+                        </div>
+                    </div>
+
+                    <div class="row expanded" id="story" data-toggler data-animate="hinge-in-from-top hinge-out-from-top" hidden>
+                        <div class="small-12 medium-12 large-6 columns">
+                            <h1 class="story-title">Idea &amp; behind the scenes</h1>
+                            <p class="story-content">Designers and developers always tend to procrastinate projects we feel are of less importance and creating our own website tops the list. Although sometimes it is purely our workaholic tendencies that keep us busy on a project or two, we never feel the need to give that much time to our own website.</p>
+                            <p class="story-content">When I decided to design and develop my website I had to make sure that I give it ample of time and dedication as I didn’t wanted to end up being a part of <i>"The shoemaker's kids have no shoes"</i> phenomena.</p>
+                        </div>
+                        <div class="small-12 medium-12 large-6 columns">
+                            <h1 class="story-title">Technical Stuff</h1>
+                            <p class="story-content">This website is a responsive website hand-crafted from the ground up, built on the Foundation framework using HTML5, CSS3 & the jQuery library. I have used parallax.js for parallax effects, jQuery easing library for the cool transitions throughout the website. Viewport element reveal transitions are done using scrollReveal.js. Pictographic scalable vector icons are from the Font Awesome library. Animations and Interactive buttons were created using animate.css. Fonts used on the website are Raleway, Roboto, Open Sans, &amp; Lobster served by Google Fonts. Last but not the least, entire project is coded with Brackets and hosted on Github.</p>
+                        </div>
+                    </div>
+
+                    <div class="row expanded" id="quotes" data-toggler data-animate="hinge-in-from-top hinge-out-from-top" hidden>
+                        <div class="small-12 medium-12 large-4 columns">
+                            <p>
+                                <blockquote>“There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for.” ― <i>Milton Glaser</i></blockquote>
+                            </p>
+                        </div>
+                        <div class="small-12 medium-12 large-4 columns">
+                            <p>
+                                <blockquote>“What separates design from art is that design is meant to be… functional.” ― <i>Cameron Moll</i></blockquote>
+                            </p>
+                        </div>
+                        <div class="small-12 medium-12 large-4 columns">
+                            <p>
+                                <blockquote>“Good design is obvious. Great design is transparent.” ― <i>Joe Sparano</i></blockquote>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rows expanded">
+                        <div class="columns expanded">
+                            <p class="about-button wow fadeInDown story-mode-mobile"><button type="button" class="button-about button-about-text" data-toggle="story-mode-mobile" id="story-mode-button-mobile"><i class="fa fa-play animated fadeInDown" id="story-mode-mobile-font"></i>&nbsp;&nbsp;View this section in story mode</button></p>
+                            <div class="large reveal story-mode-content" id="story-mode-mobile" data-reveal>
+                                <p>STORY MODE</p>
+                                <img src="images/story.gif" alt="my web development story">
+                                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rows expanded">
+                        <div class="columns expanded">
+                            <p class="about-button wow fadeInDown story-mode"><button type="button" class="button-about button-about-text" data-toggle="story-mode" id="story-mode-button"><i class="fa fa-play animated fadeInDown" id="story-mode-font"></i>&nbsp;&nbsp;View this section in story mode</button></p>
+                            <div class="large reveal story-mode-content" id="story-mode" data-reveal>
+                                <p>STORY MODE</p>
+                                <img src="images/story.gif" alt="my web development story">
+                                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills" class="section-2" data-magellan-target="skills" data-animation-easing="swing" data-animation-duration="1000" data-active-class="active" data-bar-offset="60">
+        <div class="row expanded element1 gradient1" style="width:100%;overflow-x:hidden;">
+            <svg width="0" height="0">
+  <defs>
+	<clippath id="clip-shape-1" clippathunits="objectBoundingBox">
+	  <polygon points="0 0, 1 0.01, 1 0.86, 0 1" />
+	</clippath>
+  </defs>
+</svg>
+            <div class="row expanded">
+                <div class="columns">
+                    <h1 class="skills-title wow fadeInDown" data-wow-duration="2s">Skills</h1>
+                    <p class="skills-content wow fadeInDown" data-wow-duration="2s">I specialize in front-end &amp; back-end development,<br/> focussing on simplicity, responsive design and SEO-friendly code.</p>
+                </div>
+            </div><br/>
+            <div class="skills-section skills-section-scroll">
+                <div class="row expanded">
+                    <div class="small-12 medium-12 large-4 columns expanded">
+                        <img class="web-design wow fadeInDown" src="images/responsive-web-design.svg" alt="responsive web design" data-wow-duration="2s">
+                        <h2 class="web-design-title wow fadeInDown" data-wow-duration="2s">Responsive web design</h2>
+                    </div>
+                    <div class="small-12 medium-12 large-4 columns expanded">
+                        <img class="front-end wow fadeInDown" src="images/front-end-web-development.png" alt="front-end" data-wow-duration="2s" />
+                        <h2 class="front-end-title wow fadeInDown" data-wow-duration="2s">Front-end development</h2>
+                    </div>
+                    <div class="small-12 medium-12 large-4 columns expanded">
+                        <img class="back-end wow fadeInDown" src="images/back-end.png" alt="back-end-web.jpg" data-wow-duration="2s" />
+                        <h2 class="back-end-title wow fadeInDown" data-wow-duration="2s">Back-end development</h2>
+                    </div>
+                </div><br/>
+
+                <div class="row expanded">
+                    <div class="columns">
+                        <h2 class="tech-title wow fadeInDown" data-wow-duration="2s">Languages &amp; Technologies</h2>
+                    </div>
+                </div><br/>
+
+                <div class="row expanded">
+                    <div class="small-12 medium-12 large-6 columns">
+                        <h3 class="webdesign-title wow fadeInDown" data-wow-duration="2s">Web Design</h3><br/>
+                        <img class="web-design-logo wow fadeInDown" src="images/logos/adobe-photoshop-logo.svg" alt="adobe photoshop" data-wow-duration="2s" />
+                        <img id="web-design-logo-1" class="web-design-logo wow fadeInDown" src="images/logos/adobe-illustrator-logo.svg" alt="adobe illustrator" data-wow-duration="2s" />
+                        <p class="web-design-content wow fadeInDown" data-wow-duration="2s">Adobe creative cloud suite</p>
+                    </div>
+                    <div class="small-12 medium-12 large-6 columns">
+                        <h3 class="uxdesign-title wow fadeInDown" data-wow-duration="2s">UI/UX Design</h3><br/>
+                        <img class="ux-design-logo wow fadeInDown" src="images/logos/marvel-logo.svg" alt="marvel-logo" />
+                        <img id="ux-design-logo-1" class="ux-design-logo wow fadeInDown" src="images/logos/mockups-logo.png" alt="mockups-logo" data-wow-duration="2s" />
+                        <p class="ux-design-content wow fadeInDown" data-wow-duration="2s">Mockup tools</p>
+                    </div>
+                </div><br/>
+                <div class="row expanded">
+                    <div class="small-12 medium-12 large-6 columns">
+                        <h3 class="frontend-title wow fadeInDown" data-wow-duration="2s">Front-end Web Development</h3><br/>
+                        <img class="front-end-logo wow fadeInDown" src="images/logos/html5-logo.svg" alt="html5-logo" />
+                        <img id="front-end-logo-1" class="front-end-logo wow fadeInDown" src="images/logos/css3-logo.svg" alt="css3-logo" data-wow-duration="2s" />
+                        <img id="front-end-logo-2" class="front-end-logo wow fadeInDown" src="images/logos/javascript-logo.svg" alt="js-logo" data-wow-duration="2s" />
+                        <p class="front-end-content wow fadeInDown" data-wow-duration="2s">Bootstrap, Foundation, Sass, Jquery, ReactJS</p>
+                    </div>
+                    <div class="small-12 medium-12 large-6 columns">
+                        <h3 class="backend-title wow fadeInDown" data-wow-duration="2s">Back-end Web Development</h3><br/>
+                        <img class="back-end-logo wow fadeInDown" src="images/logos/mysql-logo.svg" alt="mysql-logo" />
+                        <img id="back-end-logo-1" class="back-end-logo wow fadeInDown" src="images/logos/php-logo.svg" alt="php-logo" data-wow-duration="2s" />
+                        <img id="back-end-logo-2" class="back-end-logo wow fadeInDown" src="images/logos/python-logo.svg" alt="python-logo" data-wow-duration="2s" />
+                        <p class="back-end-content wow fadeInDown" data-wow-duration="2s">MySQL, Electron, Wordpress, MongoDB</p>
+                    </div>
+                </div>
+
+                <div class="row expanded">
+                    <div class="columns">
+                        <h2 class="core-skills-title wow fadeInDown" data-wow-duration="2s">Core Skills</h2>
+                    </div>
+                </div><br/>
+                <div class="row expanded">
+                    <div class="small-12 medium-6 large-3 columns">
+                        <h4 class="core-content wow fadeInDown" data-wow-duration="2s"><i class="fa fa-users"></i>&nbsp;Team Player</h4>
+                    </div>
+                    <div class="small-12 medium-6 large-3 columns">
+                        <h4 class="core-content core-content-ux wow fadeInDown" data-wow-duration="2s"><i class="fa fa-user"></i>&nbsp;User Experience Design</h4>
+                    </div>
+                    <div class="small-12 medium-6 large-3 columns">
+                        <h4 class="core-content core-content-code wow fadeInDown" data-wow-duration="2s"><i class="fa fa-code"></i>&nbsp;Code</h4>
+                    </div>
+                    <div class="small-12 medium-6 large-3 columns">
+                        <h4 class="core-content core-content-time wow fadeInDown" data-wow-duration="2s"><i class="fa fa-clock-o"></i>&nbsp;Time Management</h4>
+                    </div>
+                </div>
+
+                <div class="rows expanded infographics">
+                    <div class="columns expanded">
+                        <p class="about-button wow fadeInDown" data-wow-duration="2s"><a href="https://infograph.venngage.com/p/281269/skills" target="_blank"><button type="button" class="button-about button-about-text"><i class="fa fa-pie-chart animated fadeInDown skills-infographics"></i>&nbsp;&nbsp;View this section with Infographics</button></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects" class="section-3" data-magellan-target="projects" data-animation-easing="linear" data-animation-duration="1000" data-active-class="active" data-bar-offset="60">
+        <div class="row expanded element2 gradient2" style="width:100%;overflow-x:hidden;">
+            <svg width="0" height="0">
+  <defs>
+	<clippath id="clip-shape-2" clippathunits="objectBoundingBox">
+	  <polygon points="0 0.16, 1 0, 1 0.98, 0 0.83" />
+	</clippath>
+  </defs>
+</svg>
+            <div class="row expanded">
+                <div class="columns">
+                    <h1 class="projects-title wow fadeInDown" data-wow-duration="2s">Projects</h1>
+                </div>
+            </div>
+            <!-- projects hover effects -->
+            <div class="grid1" id="ipad">
+                <div>
+                    <figure1 class="effect-zoe wow fadeInDown" data-wow-duration="2s">
+                        <img src="images/projects/babies-world.gif" alt="babies-world" />
+                        <figcaption1>
+                            <h2>Babies World</h2>
+                            <p class="icon-links">
+                                <a href="https://iamsainikhil.github.io/babies-world" target="_blank"><i class="fa fa-eye"></i></a>
+                            </p>
+                            <p class="description">Website to make lives of the parents of new born babies easier</p>
+                        </figcaption1>
+                    </figure1>
+                </div>
+                <div>
+                    <figure1 class="effect-zoe wow fadeInDown" data-wow-duration="2s">
+                        <img src="images/projects/smart-wearables.jpg" alt="smart-wearables" />
+                        <figcaption1>
+                            <h2>Smart Wearables</h2>
+                            <p class="icon-links">
+                                <a href="https://iamsainikhil.github.io/smartwearables" target="_blank"><i class="fa fa-eye"></i></a>
+                            </p>
+                            <p class="description">Website to provide latest updates about Smart Watches, Fitness Bands, Stylish Smart Watches, and Luxury Smart Watches.</p>
+                        </figcaption1>
+                    </figure1>
+                </div>
+                <div>
+                    <figure1 class="effect-zoe wow fadeInDown" data-wow-duration="2s">
+                        <img src="images/projects/tech-geek.png" alt="techgeek" />
+                        <figcaption1>
+                            <h2>Techgeek</h2>
+                            <p class="icon-links">
+                                <a href="http://techgeek.ezyro.com/wp" target="_blank"><i class="fa fa-eye"></i></a>
+                            </p>
+                            <p class="description">Website built on WordPress to provide articles on latest Technology, Gadgets, Applications, etc.</p>
+                        </figcaption1>
+                    </figure1>
+                </div>
+                <div>
+                    <figure1 class="effect-zoe wow fadeInDown" data-wow-duration="2s">
+                        <img src="images/projects/uc-blackboard.jpg" alt="uc-blackboard" />
+                        <figcaption1>
+                            <h2>UC Blackboard</h2>
+                            <p class="icon-links">
+                                <a href="https://iamsainikhil.github.io/uc-blackboard" target="_blank"><i class="fa fa-eye"></i></a>
+                            </p>
+                            <p class="description">Website to demonstrate the Prototype for UC Blackboard system</p>
+                        </figcaption1>
+                    </figure1>
+                </div>
+                <div>
+                    <figure1 class="effect-zoe wow fadeInDown" data-wow-duration="2s">
+                        <img src="images/projects/social-meetup.png" alt="meetup" />
+                        <figcaption1>
+                            <h2>Social Meetup</h2>
+                            <p class="icon-links">
+                                <a href="https://iamsainikhil.github.io/social-meetup" target="_blank"><i class="fa fa-eye"></i></a>
+                            </p>
+                            <p class="description">Web Application (Interactive platform for NGO's and Volunteers)</p>
+                        </figcaption1>
+                    </figure1>
+                </div>
+                <div>
+                    <figure1 class="effect-zoe wow fadeInDown" data-wow-duration="2s">
+                        <img src="images/projects/twitter.jpg" alt="twitter" />
+                        <figcaption1>
+                            <h2>Twitter</h2>
+                            <p class="icon-links">
+                                <a href="https://github.com/iamsainikhil/twitter-sentiment-analysis" target="_blank"><i class="fa fa-eye"></i></a>
+                            </p>
+                            <p class="description">Sentiment analysis of Twitter tweets using Python</p>
+                        </figcaption1>
+                    </figure1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements section -->
+    <section id="achievements" class="section-4" data-magellan-target="achievements" data-animation-easing="swing" data-animation-duration="1000" data-active-class="active" data-bar-offset="30">
+        <div class="row expanded element3 gradient3" style="width:100%;overflow-x:hidden;overflow:hidden !important;">
+            <svg width="0" height="0">
+  <defs>
+	<clippath id="clip-shape-3" clippathunits="objectBoundingBox">
+	  <polygon points="0 0, 1 0.16, 1 0.96, 0 1" />
+	</clippath>
+  </defs>
+</svg>
+            <div class="row expanded">
+                <div class="columns">
+                    <h1 class="achievements-title wow fadeInDown" style="margin-top:23%;" data-wow-duration="2s">Achievements</h1>
+                </div>
+            </div>
+            <div class="row expanded">
+                <div class="columns">
+                    <h2 class="awards-title wow fadeInDown" data-wow-duration="2s">Awards & Honors</h2>
+                </div>
+            </div><br/>
+
+            <section id="grid" class="demo-3 grid clearfix">
+                <div href="#" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z" class="wow fadeInDown" data-wow-duration="2s">
+                    <figure>
+                        <img src="images/achievements/css-nectar.jpg" alt="css-nectar-logo" />
+                        <svg viewbox="0 0 180 320" preserveaspectratio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z"/></svg>
+                        <figcaption>
+                            <h2>CSS Nectar</h2>
+                            <p>Website of the Day <span><i>Nominee</i></span></p>
+                            <button><a href="#"  target="_blank"><i class="fa fa-eye"></i>&nbsp;View</a></button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div href="#" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z" class="wow fadeInDown" data-wow-duration="2s">
+                    <figure>
+                        <img src="images/achievements/css-reel.jpg" alt="css-reel-logo" />
+                        <svg viewbox="0 0 180 320" preserveaspectratio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z"/></svg>
+                        <figcaption>
+                            <h2>CSS Reel</h2>
+                            <p>Website of the Day <span><i>Nominee</i></span></p>
+                            <button><a href="#"  target="_blank"><i class="fa fa-eye"></i>&nbsp;View</a></button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div href="#" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z" class="wow fadeInDown" data-wow-duration="2s">
+                    <figure>
+                        <img src="images/website-design-awards.jpg" alt="css-light-logo" />
+                        <svg viewbox="0 0 180 320" preserveaspectratio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z"/></svg>
+                        <figcaption>
+                            <h2>CSS Light</h2>
+                            <p>Website of the Day <span><i>Nominee</i></span></p>
+                            <button><a href="#"  target="_blank"><i class="fa fa-eye"></i>&nbsp;View</a></button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div href="#" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z" class="wow fadeInDown" data-wow-duration="2s">
+                    <figure>
+                        <img src="images/achievements/web-guru.png" alt="web-guru-logo" />
+                        <svg viewbox="0 0 180 320" preserveaspectratio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z"/></svg>
+                        <figcaption>
+                            <h2>Web Guru awards</h2>
+                            <p><span><i>Nominee</i></span></p>
+                            <button><a href="#"  target="_blank"><i class="fa fa-eye"></i>&nbsp;View</a></button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div href="#" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z" class="wow fadeInDown" data-wow-duration="2s">
+                    <figure>
+                        <img src="images/achievements/cca-html.png" alt="html" />
+                        <svg viewbox="0 0 180 320" preserveaspectratio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z"/></svg>
+                        <figcaption>
+                            <h2>HTML</h2>
+                            <p>Certificate of Achievement</p>
+                            <button><a href="images/achievements/CCA-Certificate-HTML%20Level%201.pdf"  target="_blank"><i class="fa fa-eye"></i>&nbsp;View</a></button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div href="#" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z" class="wow fadeInDown" data-wow-duration="2s">
+                    <figure>
+                        <img src="images/lynda.png" alt="js" />
+                        <svg viewbox="0 0 180 320" preserveaspectratio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z"/></svg>
+                        <figcaption>
+                            <h2>Javascript</h2>
+                            <p>Certificate</p>
+                            <button><a href="images/achievements/JavaScriptEssentialTraining_CertificateOfCompletion.pdf"  target="_blank"><i class="fa fa-eye"></i>&nbsp;View</a></button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div href="#" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z" class="wow fadeInDown" data-wow-duration="2s">
+                    <figure>
+                        <img src="images/achievements/full-stack-web-lynda.png" alt="fullstack web developer" />
+                        <svg viewbox="0 0 180 320" preserveaspectratio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z"/></svg>
+                        <figcaption>
+                            <h2>Full Stack Web developer</h2>
+                            <p>Certificate</p>
+                            <button><a href="images/achievements/lynda.com-Become%20a%20Full-Stack%20Web%20Developer.pdf"  target="_blank"><i class="fa fa-eye"></i>&nbsp;View</a></button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div href="#" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z" class="wow fadeInDown" data-wow-duration="2s">
+                    <figure>
+                        <img src="images/achievements/uc-gia.png" alt="GIA" />
+                        <svg viewbox="0 0 180 320" preserveaspectratio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z"/></svg>
+                        <figcaption>
+                            <h2>Graduate Incentive Award</h2>
+                            <p>Scholarship</p>
+                            <button><a href="images/achievements/SaiNikhilBheemanathiniScholarship.pdf"  target="_blank"><i class="fa fa-eye"></i>&nbsp;View</a></button>
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+
+            </section>
+
+
+
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="section-5" data-magellan-target="contact" data-animation-easing="swing" data-animation-duration="1000" data-active-class="active" data-bar-offset="60">
+        <div class="row expanded element4 gradient4 contact-section-image" style="width:100%;overflow-x:hidden;">
+            <svg width="0" height="0">
+  <defs>
+	<clippath id="clip-shape-4" clippathunits="objectBoundingBox">
+	  <polygon points="0 0.08, 1 0, 1 1, 0 1" />
+	</clippath>
+  </defs>
+</svg>
+            <div class="columns">
+                <h1 class="contact-title wow fadeInDown" data-wow-duration="2s">Contact</h1>
+                <p class="contact-content wow fadeInDown" data-wow-duration="2s">Whether you’d like to discuss a project, ask me about my website or simply say “hello”, <br/>I’d love to hear from you.</p>
+                <p class="contact-content-mobile wow fadeInDown" data-wow-duration="2s">Whether you’d like to discuss a project, <br/>ask me about my website or <br/>simply say “hello”, <br/>I’d love to hear from you.</p>
+            </div>
+            <div class="row expanded">
+                <div class="columns expanded">
+                    <p class="mail wow fadeInDown" data-wow-duration="2s"><i class="fa fa-envelope"></i>&nbsp;&nbsp;sainikhil@gmail.com</p>
+                </div>
+            </div>
+
+            <form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbzGYceA0Xc7xU3j5Pz0Kcyx4Yazixcc4sKjXhH-GDLfXiMrWtA/exec">
+                <div class="row">
+                    <div class="small-6 medium-6 large-6 columns">
+                        <label for="middle-label" class="text-right middle wow fadeInDown" data-wow-duration="2s">Name&#42;</label>
+                    </div>
+                    <div class="small-6 medium-6 large-6 columns">
+                        <input class="input" type="text" name="name" placeholder="Enter Full Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-6 medium-6 large-6 columns">
+                        <label for="middle-label" class="text-right middle wow fadeInDown" data-wow-duration="2s">Email&#42;</label>
+                    </div>
+                    <div class="small-6 medium-6 large-6 columns">
+                        <input class="input" type="email" name="email" placeholder="Enter email address" required>
+                        <p class="help-text">I'll never share your email with others.</p>
+                        <span id="email-invalid" style="visibility:hidden">
+        Must be a valid email address</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-6 medium-6 large-6 columns">
+                        <label for="middle-label" class="text-right middle wow fadeInDown" data-wow-duration="2s">Message&#42;</label>
+                    </div>
+                    <div class="small-6 medium-6 large-6 columns">
+                        <textarea class="input" id="middle-label" name="message" cols="50" rows="2" placeholder="Type message" required></textarea>
+                        <p class="help-text">&#42; indicates required fields</p>
+                        <button class="button button-contact animated wow fadeInDown" id="button-contact"><i class="fa fa-paper-plane" aria-hidden="true" data-wow-duration="2s"></i>&nbsp;Send</button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Customise the Thankyou Message People See when they submit the form: -->
+            <div style="display:none;" id="thankyou_message">
+                <!-- <img src="images/mail-sent.gif"/> -->
+                <img id="delay-mail" src="images/message_sent.png" alt="thank-you-message" />
+            </div>
+
+        </div>
+    </section>
+
+    ></a>
+    </span>&#8212;&nbsp;Plugin to fix elements on the page on scroll&nbsp;by&nbsp;<span class="author author-scroll">bigspotteddog</span></p>
+    <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/codrops/HoverEffectIdeas" target="_blank"><button class="button button-hover">Hover Effect Ideas</button></a></span>&#8212;&nbsp;Some inspiration and modern ideas for subtle hover effects.&nbsp;by&nbsp;<span class="author author-hover">Codrops</span></p>
+    <p class="credits-content"><i class="fa fa-hand-o-right fa-2x"></i>&nbsp;<span><a href="https://github.com/dwyl/html-form-send-email-via-google-script-without-server" target="_blank"><button class="button button-html">HTML Form Email without Server</button></a></span>&#8212;&nbsp;an HTML form to send Email without a Backend Server (using a Google Script)&nbsp;by&nbsp;<span class="author author-html">dwyl</span></p>
+
+
+
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+    </div>
+    <div class="credits wow fadeInUp" data-wow-duration="2s"><a data-open="credits-modal"><button class="button-credits">CREDITS</button></a></div>
+    </div>
+    </div>
+
+    <div class="row expanded">
+        <div class="small-4 medium-4 large-4 columns wow fadeInDown" data-wow-duration="2s">
+            <!-- <a class="github-button" href="https://github.com/iamsainikhil" aria-label="Follow @iamsainikhil on GitHub">Follow @iamsainikhil</a> -->
+            <div class="large reveal lead" id="disclaimer-modal" data-reveal>
+                <h1>WEBSITE DISCLAIMER</h1>
+                <p>Logos used in this website are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by us.</p>
+                <p>Icons used in this website are downloaded from- Freepik.com</p>
+                <h1>This website is licensed under the MIT License</h1>
+                <p>MIT License</p>
+                <p>Copyright (c) 2017 Sai Nikhil Bheemanathini</p>
+                <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+                <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+                <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
+                <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+            </div>
+            <div class="disclaimer wow fadeInUp"><a data-open="disclaimer-modal"><button class="button-credits">DISCLAIMER</button></a></div>
+        </div>
+        <div class="small-4 medium-4 large-4 columns copyright wow fadeInUp" data-wow-duration="2s">
+            <p>&copy; Sai Nikhil 2017</p>
+        </div>
+        <div class="small-4 medium-4 large-4 columns resume wow fadeInUp" data-wow-duration="2s">
+            <a href="http://vizualize.me/iamsainikhil?r=iamsainikhil" target="_blank"><img src="http://vizualize.me/media/img/socialicons/viewmyviz.png"/></a>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up fa-2x"></i></button>
+    </footer>
+
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <script>
+        //typed.js
+        $(function() {
+            $(".write").typed({
+                strings: ["Hello,", "नमस्ते,"],
+                typeSpeed: 100,
+                loop: true,
+                backSpeed: 75,
+                backDelay: 2000,
+                showCursor: true,
+                cursorChar: "|",
+            });
+        });
+    </script>
+    <script type="text/javascript" src="js/scrolltofixed.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.header').scrollToFixed();
+            $('.header').trigger('resize');
+            $(window).scroll();
+            $(window).resize();
+        });
+    </script>
+    <script src="js/what-input.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fittext.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/scrolltofixed.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script type="text/javascript" src="js/snap.svg-min.js"></script>
+    <script>
+        //animation hover effects
+        (function() {
+
+            function init() {
+                var speed = 300,
+                    easing = mina.easeinout;
+
+                [].slice.call(document.querySelectorAll('#grid > div')).forEach(function(el) {
+                    var s = Snap(el.querySelector('svg')),
+                        path = s.select('path'),
+                        pathConfig = {
+                            from: path.attr('d'),
+                            to: el.getAttribute('data-path-hover')
+                        };
+
+                    el.addEventListener('mouseenter', function() {
+                        path.animate({
+                            'path': pathConfig.to
+                        }, speed, easing);
+                    });
+
+                    el.addEventListener('mouseleave', function() {
+                        path.animate({
+                            'path': pathConfig.from
+                        }, speed, easing);
+                    });
+                });
+            }
+
+            init();
+
+        })();
+    </script>
+
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script type="text/javascript" src="js/paroller.js"></script>
+    <script>
+        $(window).paroller();
+    </script>
+</body>
+</html>
